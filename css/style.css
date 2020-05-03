@@ -1,0 +1,90 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#header-section{
+    background-image:url("../images/header-image.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+#header-section .background{
+    background: rgba(0,0,0,0.6);
+    width: 100vw;
+    height: 100vh;
+}
+
+#header-section .nav-section{
+    opacity: 0.8;
+    color:#fff;
+}
+
+#header-section .bg-content{
+    margin-top: 200px;
+}
+
+.bg-content h1{
+    font-size:60px;
+}
+
+.bg-content h3{
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.bg-content .button{
+    width: 150px;
+    margin: 10px auto;
+}
+
+/* For services section */
+.icon{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.icon i{
+    margin-top: 20px;
+}
+
+#service-section h2{
+    margin-top:100px ;
+}
+
+
+/* For team Section */
+#team-section .team-img{
+    width: 250px;
+    height: 250px;
+}
+
+#team-section h3{
+    padding-top: 20px;
+}
+
+
+/* For Contact Us part */
+.icon-group{
+    height: 150px;
+    width:100%;
+    display: block;
+    margin-left: 200px;
+
+}
+
+.icon-group .icon{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.icon .social{
+    margin-top: -0.25px;
+}
