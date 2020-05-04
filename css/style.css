@@ -1,6 +1,11 @@
+*{
+    overflow-x:hidden;
+}
 html {
     scroll-behavior: smooth;
 }
+
+/* For header section */
 
 #header-section{
     background-image:url("../images/header-image.jpg");
@@ -72,7 +77,11 @@ html {
     height: 150px;
     width:100%;
     display: block;
-    margin-left: 200px;
+    display: flex!important ;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left:auto!important;
+    margin-right: auto!important;
 
 }
 
@@ -83,8 +92,45 @@ html {
     background: #fff;
     border-radius: 10px;
     padding: 5px;
+    overflow: hidden;
 }
 
 .icon .social{
     margin-top: -0.25px;
+}
+
+@media(max-width:500px){
+    /* for header section */
+    .bg-content h1{
+        font-size:25px;
+    }
+    
+    .bg-content h3{
+        font-size: 50px;
+        font-weight: bold;
+    }
+}
+
+@media(min-width:501px) and (max-width:768px){
+    /* for header section */
+    .bg-content h1{
+        font-size:30px;
+    }
+    
+    .bg-content h3{
+        font-size: 60px;
+        font-weight: bold;
+    }
+}
+
+@media(min-width:769px) and (max-width:991px){
+    /* for header section */
+    .bg-content h1{
+        font-size:40px;
+    }
+    
+    .bg-content h3{
+        font-size: 70px;
+        font-weight: bold;
+    }
 }
